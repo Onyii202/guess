@@ -1,0 +1,168 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Nunito", sans-serif;
+  background-color: #1f1f38;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  padding: 20px;
+  /* background-color: var(--background-color);
+  color: var(--text-color); */
+}
+
+/* body{
+  font-family:'press start 2P', sans-serif;
+  background-color: #222;
+  color: #eee;
+  
+} */
+#Again {
+  width: 150px;
+  height: 55px;
+  font-size: 25px;
+  color: black;
+  background-color: #eee;
+  cursor: pointer;
+}
+#Again:hover {
+  background-color: #2c2c6c;
+  color: white;
+}
+
+#check {
+  font-size: 25px;
+  width: 100px;
+  height: 45px;
+  color: black;
+  background-color: #fff;
+  cursor: pointer;
+}
+
+#check:hover {
+  background-color: #2c2c6c;
+  color: white;
+}
+
+h1 {
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+#number {
+  font-size: 4rem;
+  font-weight: 700;
+  margin-top: 20px;
+  border-radius: 50%;
+  background-color: #2c2c6c;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+  line-height: 80px;
+  text-align: center;
+}
+
+#number:hover {
+  color: black;
+  cursor: pointer;
+}
+
+header {
+  text-align: center;
+  background-color: #2c2c6c;
+  color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+    rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+  width: 100%;
+}
+
+#guess {
+  border: 1px solid #ddd;
+  width: 100%;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  max-width: 200px;
+  font-size: 1rem;
+  padding: 10px;
+}
+
+.btn {
+  background-color: #2c2c6c;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 1rem;
+  transition: background-color 0.3s ease;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+    rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: green;
+  cursor: pointer;
+}
+
+.left {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+main {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 800px;
+  margin-top: 20px;
+}
+
+.left,
+.right {
+  flex: 1;
+}
+
+.label-score,
+.label-highscore {
+  font-size: 1.2rem;
+  margin-top: 10px;
+  color: white;
+}
+
+.message {
+  font-size: 1.2rem;
+  margin-top: 20px;
+  color: white;
+}
+
+.score,
+.highscore {
+  font-weight: bold;
+  color: rgb(216, 43, 43);
+}
+.right {
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+}
+
+/* :root {
+  background-color: white;
+}
+
+.darkMode {
+  --background-color: black;
+  --text-color: white;
+} */
